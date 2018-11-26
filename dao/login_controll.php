@@ -35,7 +35,7 @@
             //print_r($utenteLog)
             ob_start();//A partire dal momento della chiamata ad ob_start() tutti gli output verranno deviati verso il buffer e spediti al client soltanto al termine dell’ esecuzione dello script, od ogniqualvolta vi sia una chiamata ad una funzione *_flush() 
             echo "Se il tuo browser non supporta il redirect clicka <a href=\"index.php\">qui</a>.";
-            header( "refresh:0;url=../homepage.php" );
+            header( "refresh:5;url=../homepage.php" );
             ob_end_flush();
 ?>
 
