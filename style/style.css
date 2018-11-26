@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.st0{opacity:0.91;}
+.st1{fill-rule:evenodd;clip-rule:evenodd;}
+.st2{fill:#BCBCBC;}
+.st3{fill:#FFFFFF;}
+.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#C6C6C6;}
+.st5{fill:#0C0C0C;stroke:#FFFEFD;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:10;}
+.st6{font-family:'AdobeSongStd-Light-GBpc-EUC-H';}
+.st7{font-size:75.3568px;}
+
+.logo {
+    padding-right:2%;
+   
+}
+.login {
+    padding-bottom:5%;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+   height: 200px;
+}
+svg:hover #livello_1 {
+
+animation-duration: 1.2s;
+animation-name: animatelogo;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+@keyframes animatelogo {
+
+from {
+
+  transform: translateX(0) translateY(0);
+  opacity:1;
+}
+to{
+ transform: translateX(0) translateY(30px);
+  opacity:0;
+
+}
+
+}
